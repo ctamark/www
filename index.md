@@ -3,10 +3,10 @@
 
 # 공무원 한국사
 
-## 공무원 영어(어휘,문법편)
+# 공무원 영어(어휘,문법편)
 - android ![Image of app](/img/icon_studyEnglish_256.png)
 
-### 공무원 국어(규범,한자편)
+# 공무원 국어(규범,한자편)
 
 - Bulleted
 - List
