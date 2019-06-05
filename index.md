@@ -3,7 +3,7 @@
 
 # 공무원 한국사
 
--[[iOS|(https://itunes.apple.com/kr/app/%EA%B3%B5%EB%AC%B4%EC%9B%90-%ED%95%9C%EA%B5%AD%EC%82%AC-%EA%B8%B0%EC%B6%9C-lite-2019-%EB%8C%80%EB%B9%84/id1294010197)]]
+-[[iOS|https://itunes.apple.com/kr/app/%EA%B3%B5%EB%AC%B4%EC%9B%90-%ED%95%9C%EA%B5%AD%EC%82%AC-%EA%B8%B0%EC%B6%9C-lite-2019-%EB%8C%80%EB%B9%84/id1294010197]]
 
 
 # 공무원 영어(어휘,문법편)
