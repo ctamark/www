@@ -1,0 +1,471 @@
+﻿ /*주석은 이렇게 달아요*/
+
+/*
+태그이름#아이디 { 속성1:속성값; 속성2:속성값; } 
+태그이름.클래스명1, .클래스명2 { 속성1:속성값; 속성2:속성값; }
+.클래스명#아이디 { 속성1:속성값; 속성2:속성값; }
+
+
+공백삽입: &nbsp;
+*/
+
+      div.a {
+        font-size: medium;
+        text-align: left;
+      }
+
+      div.b {
+        font-size: medium;
+      }
+
+      div.c {
+        font-size: large;
+      }
+
+
+
+      pre {
+
+          font-size: 0.95rem;
+          font-family: 'nanumgothic';
+		  padding:10px;
+		  
+		  overflow: auto;
+          white-space: pre-wrap; /* pre tag내에 word wrap */
+		  		  
+      }
+	  
+	  @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+
+/* 폰트 이름에 작은 따움표 '' 꼭 붙여야 합니다*/
+      div.formula {
+
+       padding-left:5pt;
+       padding-top:10pt;
+       padding-bottom:5pt;
+	   
+	   font-size: small; 
+
+       font-family: '돋움';
+       color:white; 
+       background-color:black;
+       width:90%;
+       border-radius: 2em;
+         
+      }
+	  
+	  pre.math {
+
+       font-family: Courier;
+	   font-size:0.9em;
+		  
+	  }
+
+      div.study_point {
+
+       padding:10px;
+       background-color:black;
+       color:orange; 
+       width:80%;
+       border-radius: 2em;
+         
+      }
+
+
+     div.solve, .keyword{
+       padding-left: 5px;
+       border-left : 3px solid gray;
+       text-align: top;
+	   font-size:0.95rem;
+     
+      }
+
+    /* column 2개 */
+     div.solve_col_2{
+       display: table;
+       padding-left: 5px;
+       border-left : 3px solid gray;
+       text-align: top;
+      
+      }
+
+     div.solve_col_L {
+     display: table-cell;
+     padding-right:15px;
+     text-align: right;
+    
+    
+      }
+ 
+     div.solve_col_R{
+       display: table-cell;
+       text-align: left;
+       padding-left:10px;
+     
+      }
+
+
+
+   /* 암산 연습 */
+
+    div.math_note{
+       display:table;
+       background-color:#696969;
+       width: 90%;
+	   font-family: Courier;
+ 
+      }
+
+      div.math_note_L {
+
+      display: table-cell;
+      padding:5px;
+
+      font-size: medium;
+
+      color:white;
+
+      border-right : 1px solid black;
+      width: 42%;
+
+      }
+ 
+     div.math_note_R {
+
+      display: table-cell;  
+      padding:5px;
+      
+      font-size: medium;
+
+      color:white;
+
+      border-left : 1px solid black;
+      width: 42%;
+ 
+     }
+	 
+	 
+	 
+
+
+      div.book{
+      display:table;
+       background-color:#696969;
+       width: 100%;
+	   font-size: 0.90rem;
+ 
+      }
+
+      div.book_L {
+
+      display: table-cell;
+      padding:2px;
+
+      color:white;
+
+      border-right : 1px solid black;
+      width: 46%;
+
+      }
+ 
+     div.book_R {
+
+      display: table-cell;  
+      padding:2px;
+      
+      color:white;
+
+      border-left : 1px solid black;
+      
+ 
+     }
+
+     div.t_book ,.t_book_LR{
+       display:table;
+
+       font-size: 0.90rem;
+       color:white;
+       background-color:#898989;
+       width: 90%;
+       vertical-align:top;
+      
+    }
+
+      div.t_book_L {
+
+      display: table-cell;
+      padding:5px;
+      border-top   : 5px solid black;  
+      border-right : 3px solid black;
+      width: 40%;
+
+      }
+ 
+     div.t_book_R {
+
+      display: table-cell;
+      padding:5px;
+
+      border-top : 5px solid black;  
+      border-left : 3px solid black;
+
+      width: 40%;
+ 
+     }
+
+
+      div.formula_0 , .formula_0_LR {
+      display:table;
+       background-color:#696969;
+       width: 90%;
+ 
+      }
+
+      div.formula_0_L {
+
+      display: table-cell;
+      padding:5px;
+
+      color:white;
+      vertical-align:middle;
+      text-align:right; 
+
+
+      }
+ 
+     div.formula_0_R {
+
+      display: table-cell;  
+      padding:5px;
+
+      color:white;
+
+      vertical-align:middle;
+      text-align:left; 
+ 
+     }
+
+     div.formula_1_LR {
+      display:table;
+       background-color:#696969;
+       width: 100%;
+ 
+      }
+
+      div.formula_1_L {
+
+      display: table-cell;
+      padding:0px;
+
+      color:white;
+      vertical-align:top;
+      text-align:left; 
+	  font-size:0.9em;
+
+
+      }
+ 
+     div.formula_1_R {
+
+      display: table-cell;  
+      padding:2px;
+
+      color:white;
+
+      vertical-align:top;
+      text-align:left; 
+	  
+	  font-size:0.9em;
+
+ 
+     }
+
+
+
+    
+    div.formula_1_UB {
+      display:table;
+       background-color:#696969;
+       width: 95%;
+ 
+      }
+
+      div.formula_1_U {
+
+      display: table-row;
+      padding:2px;
+
+      color:white;
+      vertical-align:middle;
+      text-align:left; 
+
+
+      }
+ 
+     div.formula_1_B {
+
+      display: table-row;  
+	  	  
+      padding-bottom:2px;
+
+      color:white;
+
+      vertical-align:middle;
+      text-align:left; 
+	  font-size: 0.9em;
+ 
+     }
+
+
+
+
+
+
+
+    span.accent {
+     
+     padding:5px;
+     background-color:yellow;
+     font-weight:bold;
+    }
+   
+    span.accent_g, .green {
+     
+     margin:2px;
+     padding:2px;
+     color:black;
+	 line-height:1.5rem;
+     background-color:lawngreen;
+    }
+
+
+/*em : 상위 요소기준 */
+/*rem : 최상위 요소기준 */
+
+  
+  span.book {
+     
+	 line-height:1.3rem;
+     padding:2px;
+     color:white;
+	 font-size:0.95rem;
+     background-color:gray;
+    }
+ 
+
+
+   /*big*/
+  span.big  {
+     
+     margin:2px;
+     padding:2px;
+     color:black;
+	 font-size: 2.0rem;
+    }
+
+  span.blue {
+     
+     margin:2px;
+     padding:2px;
+     color:white;
+     background-color:#3390FF;
+    }
+ 
+
+
+   span.accent_yellow, .yellow {
+     
+     margin:2px;
+     padding:2px;
+     color:black;
+	 line-height:1.4rem;
+     background-color:yellow;
+    }
+
+    span.accent_black,.black {
+     
+     margin:2px;
+     padding:2px;
+
+     color:white;
+     background-color:black;
+	 line-height:1.3rem;
+ 
+    }
+
+    span.accent_gray,.gray {
+     
+     margin:2px;
+     padding:2px;
+     color:white;
+     background-color:gray;
+     font-weight:bold;
+ 
+    }
+
+    span.red{
+
+     margin:2px;
+     padding:0px;
+     font-size: 1.0rem;
+	 line-height:1.2rem;
+     color:red;
+     background-color:#FFEBEB;
+ 
+    }
+
+
+    U {
+
+     text-decoration : none;
+     border-bottom : 2px solid #FF0000;
+     padding-bottom : 1px; 
+	 line-height: 1.3rem;
+   
+    }
+     
+
+    U.r {
+
+     text-decoration : none;
+     border-bottom : 2px solid #FF0000;
+
+     margin-top: 5px; 
+     padding-bottom : 0px; 
+   
+    }
+
+   U.cancel {
+
+     text-decoration: line-through;
+	  border-bottom : 2px solid #FFFFFF;
+     padding-bottom : 2px; 
+   }
+
+    ul.no_dot {
+   
+    list-style:none;
+
+   }
+   
+  /*   font-family: 'Nanum Gothic';	*/
+
+    P.p1 {
+		  	
+    margin-top:2px;
+    padding-top:0px;
+    padding-left:10px;
+    font-size:0.96em;
+	line-height:1.3rem
+   }
+   
+     P.p2 {
+		
+    font-family: Nanum Gothic;		
+    margin-top:2px;
+    padding-top:0px;
+    padding-left:12px;
+    font-size:0.92em;
+   }
